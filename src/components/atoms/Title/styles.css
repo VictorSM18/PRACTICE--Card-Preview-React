@@ -1,0 +1,8 @@
+.title {
+  font-weight: 800;
+  transition: 0.1s;
+}
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
+}
