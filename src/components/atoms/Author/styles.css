@@ -1,0 +1,12 @@
+.author {
+  margin-top: 1rem;
+  font-weight: 800;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.author > img {
+  width: 2rem;
+}

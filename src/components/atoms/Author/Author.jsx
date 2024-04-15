@@ -3,7 +3,7 @@ import './styles.css'
 
 export default function Author({ data }) {
   return (
-    <div>
+    <div className='author'>
       <img src={data.authorPicture} alt='' />
       <p className='author-name'>{data.authorName}</p>
     </div>

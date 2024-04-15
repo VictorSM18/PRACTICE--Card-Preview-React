@@ -6,5 +6,5 @@ export default function Description({ data }) {
 }
 
 Description.propTypes = {
-  data: PropTypes.string.isRequired,
+  data: PropTypes.object.isRequired,
 }

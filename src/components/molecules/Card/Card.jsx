@@ -5,6 +5,7 @@ import Description from '../../atoms/Description/Description.jsx'
 import Portrait from '../../atoms/Portrait/Portrait.jsx'
 import Title from '../../atoms/Title/Title.jsx'
 import Tag from '../../atoms/Tag/Tag.jsx'
+import Author from '../../atoms/Author/Author.jsx'
 
 export default function Card({ data }) {
   return (
@@ -14,6 +15,7 @@ export default function Card({ data }) {
       <Date data={data} />
       <Title data={data} />
       <Description data={data} />
+      <Author data={data} />
     </div>
   )
 }
