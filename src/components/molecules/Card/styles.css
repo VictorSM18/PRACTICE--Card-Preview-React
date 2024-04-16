@@ -2,16 +2,12 @@
   border: 1px solid hsl(0, 0%, 7%);
   background-color: hsl(0, 0%, 100%);
   width: 60%;
+  max-width: 25rem;
   padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0.25rem 0.25rem 0 0.1rem;
   cursor: pointer;
   transition: 100ms ease;
-}
-
-.card:before {
-  content: '';
-  position: fixed;
 }
 
 .card:hover {
